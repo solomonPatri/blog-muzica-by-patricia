@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+
+            <h1> Joc Interactic: Muzica </h1>
+           <p>Acest test are scopul de a-ti pune cunostiintele la testare</p>
+    
+            <nav>
+                <ul>
+                    <li> <a href="../index.html">Home</a></li>
+                    <li> <a href="../pages/about.html">Despre noi</a></li>
+                    <li><a href="../pages/article.html">Articole </a></li>
+                    <li><a href="../pages/Concert.html">Concerte</a></li>
+                    <li> <a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form action="Test.html" method="post">
+        
+            <h1>Tu Poti!!</h1>
+         <!--Folosesc Intrebarea 1 Checkbox-->
+        <fieldset class="intrebare">
+            <label for="nume">1. Care sunt genurile de Muzica care ai vazut?</label><br>
+            <input type="checkbox" id="muzica-pop" value="muzica-pop" name="muzica-pop"><label for="muzica-pop" class="light">muzica-pop</label><br>
+            <input type="checkbox" id="muzica-rock" value="muzica-rock" name="muzica-rock"><label for="muzica-rock" class="light">muzica-rock</label><br>
+            <input type="checkbox" id="muzica clasica" value="muzica clasica" name="muzica clasica"><label for="muzica clasica" class="light">muzica clasica</label><br>
+            <input type="checkbox" id="Regueton" value="Regueton" name="Regueton"><label for="Regueton" class="light">Regueton</label><br>
+
+        </fieldset>
+       
+       <!--folosesc select -->
+       <fieldset class="intrebare">
+            <label for="nume">2. Regele rockului este cunoscut prin numele.........</label>
+           <select id = "nume" name="Regele rockului">
+              <option value="Michael-Jackson">Michael-Jackson</option>
+              <option value="Daddy Yankee">Daddy Yankee</option>
+              <option value="Elvis Presley">Elvis Presley</option>
+             
+            </select>
+            
+            
+        </fieldset>
+
+       <!--Aici folosim radio buttons-->
+      <fieldset class="intrebare">
+        <label for = "nume">3. Muzica rock poate avea o trupa/banda( mai mult de un Cantaret)</label><br>
+        <input type="radio" id="True" value="True" name="nume"><label for="True" class="light" >True </label><br>
+        <input type="radio" id="False" value="False" name="nume"><label for="False" class="light">False</label>
+
+      </fieldset>
+       
+       <!--Aici folosim TextArea-->
+       <fieldset class="intrebare">
+       <laber for="nume">4.Cate instrumente cunosti?</laber><br>
+       <textarea rows="4" cols="40" id="notes"></textarea>
+
+      </fieldset>
+      <section>
+     
+               <img src = "./Finished.jpeg" alt=" ">
+      </section>
+     
+
+        </form>
+
+    </body>
+   
+    </html>
+</html>
